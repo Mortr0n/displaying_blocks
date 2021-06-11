@@ -18,16 +18,15 @@
 h2{
     text-align: center;
     font-size: 35px;
-    
+    padding-top: 40px;
+    padding-left: 20px;
     display: inline-block;
-    
-    
 }
 
 .row{
     height: 170px;
     width: 850px;
-    background-color: chartreuse;
+    background-color: #d4d2ae;
     display: inline-block;
     margin-left: 20px;
 }
@@ -53,11 +52,32 @@ h2{
     margin-left: 140px;
     display: inline-block;
 }
+#header{
+    height: 165px;
+    
+}
 
 #title{
     width: 320px;
-    height: 165px;
     display: inline-block;
+    vertical-align: top;
+}
+
+.mainimages{
+    height: 135px;
+    width: 135px;
+    margin: 1px;
+    padding: 10px;
+    background-color: #82b4ee;
+    border: 4px solid black;    
+}
+
+.altimages{
+    height: 155px;
+    width: 155px;
+    margin: 1px;
+    background-color: #f36870;
+    border: 4px solid black;
 }
 /* previous repeated styling.  I need them the same
 #header{
