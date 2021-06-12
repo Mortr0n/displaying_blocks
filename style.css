@@ -1,88 +1,94 @@
-*{
+* {
     background-color: #2a2a2a;
 }
+
 /*this exists solely for the little border around their screen shot 
 which was probably just how they took the snip*/
-#outerwrapper{
-    height: 900px;
+#outerwrapper {
+    height: 850px;
     width: 900px;
     background-color: white;
-    padding-top: 0px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
+    padding: 0px 5px 0px 15px;
     position: relative;
-    margin:auto;
+    margin: auto;
 
-}/*begin the actual project*/
-#innerwrapper{
-    height: 890px;
-    width: 890px;
-    background-color:#d4d2ae;
 }
 
-.row{
+/*begin the actual project*/
+#innerwrapper {
+    height: 840px;
+    width: 890px;
+    padding: 0px 0px 0px 0px;
+    background-color: #d4d2ae;
+}
+
+.row {
     height: 170px;
     width: 850px;
     background-color: #d4d2ae;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 /*These next 6 items are for the top title bar of the box
 They end when mainimages is reached*/
-.headerbox{
-    height: 165px;
+.headerbox {
+    height: 140px;
     width: 260px;
     background-color: #d4d2ae;
     display: inline-block;
-    
+
 }
 
-h2{
+h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 37px;
     padding-top: 40px;
-    padding-left: 20px;
+    padding-left: 5px;
     display: inline-block;
     background-color: #d4d2ae;
 }
 
-.titleimage{
-    height: 80px;
+.titleimage {
+    height: 66px;
     width: 120px;
     margin-top: 40px;
     margin-bottom: 45px;
     background-color: white;
-    
+
 }
 
-#leftimage{
+#leftimage {
     margin-left: 140px;
     display: inline-block;
 }
-#header{
-    height: 165px;
-    
+
+#header {
+    height: 140px;
+    width: 850px;
+    background-color: #d4d2ae;
+    display: inline-block;
+    margin-left: 25px;
+    vertical-align: top;
 }
 
-#title{
+#title {
     width: 320px;
     display: inline-block;
     vertical-align: top;
 }
 
 /*Code for the images. Created an alternate in order to change every other box color and padding*/
-.mainimages{
+.mainimages {
     height: 135px;
     width: 135px;
     margin: 1px;
     padding: 10px;
     background-color: #82b4ee;
-    border: 4px solid black;    
+    border: 4px solid black;
 }
 
-.altimages{
+.altimages {
     height: 155px;
     width: 155px;
     margin: 1px;
